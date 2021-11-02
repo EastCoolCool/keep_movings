@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="035076e0-3ed0-4abe-bf05-432c481a22de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/demo/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
@@ -152,7 +151,7 @@
           <entry key="java" value="29346" />
           <entry key="properties" value="37" />
           <entry key="sh" value="81" />
-          <entry key="txt" value="975" />
+          <entry key="txt" value="979" />
           <entry key="xml" value="725" />
           <entry key="yml" value="1150" />
           <entry key="第一节课 spring核心注解" value="614" />
@@ -163,7 +162,7 @@
           <entry key="Bash" value="81" />
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="29346" />
-          <entry key="PLAIN_TEXT" value="1798" />
+          <entry key="PLAIN_TEXT" value="1802" />
           <entry key="Properties" value="37" />
           <entry key="VTL" value="9" />
           <entry key="XML" value="725" />
@@ -177,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -472,7 +471,7 @@
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635838657093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635839090620" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -873,8 +872,23 @@
       <workItem from="1635475973439" duration="713000" />
       <workItem from="1635727555189" duration="7518000" />
       <workItem from="1635751079800" duration="1781000" />
-      <workItem from="1635837927631" duration="622000" />
+      <workItem from="1635837927631" duration="1060000" />
     </task>
+    <task id="LOCAL-00001" summary="nice">
+      <created>1635838576534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635838576534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nice">
+      <created>1635838669436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635838669436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -910,7 +924,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546866000" />
+    <option name="totallyTimeSpent" value="547304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,7 +956,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.496337" visible="true" weight="0.5151515" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.496337" weight="0.5151515" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012225" side_tool="true" weight="0.34796238" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3291536" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -1009,7 +1023,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="nice" />
+    <option name="LAST_COMMIT_MESSAGE" value="nice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,8 +1344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
