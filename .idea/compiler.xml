@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="design" />
+        <module name="dubbo" />
+        <module name="fuse" />
+        <module name="jdk" />
+        <module name="kafka" />
+        <module name="leetcode" />
+        <module name="mongo" />
+        <module name="rabbitmq" />
+        <module name="redis" />
+        <module name="rocketmq" />
+        <module name="tuling" />
+      </profile>
+      <profile name="Annotation profile for keep_moving" enabled="true">
+        <sourceOutputDir name="../tuling/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../tuling/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="design" target="1.8" />
+      <module name="dubbo" target="1.8" />
+      <module name="fuse" target="1.8" />
+      <module name="jdk" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="keep_moving" target="1.8" />
+      <module name="leetcode" target="1.8" />
+      <module name="mongo" target="1.8" />
+      <module name="nacos" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="rocketmq" target="1.8" />
+      <module name="tuling" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

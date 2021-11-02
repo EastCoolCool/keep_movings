@@ -1,0 +1,40 @@
+概念:
+    异步:
+        A-->B B-->A
+    同步:
+        A-->A B-->B
+
+设计模式:抽象工厂模式
+
+总工厂:    Factory
+    CMS工厂   CmsFactory
+    GITV工厂  GitvFactory
+    分省工厂   FacadeFactory
+    中心工厂   CenterFactory
+    咪咕工厂   MiguFactory
+
+
+ 功能抽象类:
+    多屏行为
+        异步CMS多屏行为   (分省-->CMS)    LinkUserFacade2Cms
+        异步GITV多屏行为  (分省-->GITV)   LinkUserFacade2Gitv
+        异步中心多屏行为   (分省-->中心)    LinkUserFacade2Center
+        同步分省多屏行为   (分省-->分省)    LinkUserFacade2Facade
+
+    小屏行为
+        异步分省小屏行为   (中心-->分省)    AppBehaviorCenter2Facade
+        异步CMS小屏行为   (分省-->CMS)    AppBehaviorFacade2Cms
+        异步GITV小屏行为  (分省-->GITV)   AppBehaviorFacade2Gitv
+        同步中心小屏行为   (中心-->中心)    AppBehaviorCenter2Center
+        同步分省小屏行为   (分省-->分省)    AppBehaviorFacade2Facade
+
+
+    大屏行为
+        异步中心大屏行为    (分省-->中心)   TvBehaviorFacade2Center
+        异步咪咕大屏行为    (中心-->咪咕)   TvBehaviorCenter2Migu
+        同步分省大屏行为    (分省-->分省)   TvBehaviorFacade2Facade
+        同步中心大屏行为    (中心-->中心)   TvBehaviorCenter2Center
+
+
+
+

@@ -1,0 +1,19 @@
+server:
+  port: 1020
+
+
+#kafka相关配置
+spring:
+  kafka:
+    bootstrap-servers: 172.19.50.201:9092,172.19.50.200:9092,172.19.50.199:9092
+    producer:
+      retries: 3
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #我的测试topic
+      topic: groot_lidongshuai_test
+    consumer:
+      group-id: test_lds
+      enable-auto-commit: true

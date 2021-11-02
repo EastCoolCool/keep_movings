@@ -1,0 +1,44 @@
+server:
+  port: 8082
+
+
+
+systemParameters:
+  #线程池配置
+  taskExcuter:
+    coreSize: 10        #核心线程数量
+    maxPoolSize: 10     #线程池维护线程的最大数量
+    queueCapacity: 10  #排队线程数量
+    # 饱和策略
+    # 1-Abort策略(默认方式-直接抛出异常) 2-CallerRuns策略(退给调用者,会再次进来运行新的任务)
+    # 3-Discard策略(饱和的任务直接丢弃) 4-DiscardOldest策略(优先处理,顶去先进来的任务)
+    rejectedExecutionHandler: 1
+
+
+#hystrix熔断器,相关参数设置
+hystrix:
+  threadpool:
+    default:
+      coreSize: 500 #核心线程数
+      maxQueueSize: 100 #BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 100 #超过20个的队列外的请求被拒绝
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000 #线程池统计指标的时间，默认10000
+
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 3  #默认10内达到触发熔断的最少请求量
+        sleepWindowInMilliseconds: 30000 #故障恢复检测间隔时间
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000 #请求超时时间
+      fallback:
+        isolation:
+          semaphore:
+            maxConcurrentRequests: 100 #fallback策略处理的qps数量,如果并发情况下超过这个值会报异常
+
+#hystrix.command.default.fallback.isolation.semaphore.maxConcurrentRequests
+

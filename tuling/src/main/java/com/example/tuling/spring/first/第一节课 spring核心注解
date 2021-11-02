@@ -1,0 +1,37 @@
+常用spring注入注解
+    @bean
+        作用在方法上（方法返回对象），配合@configuration
+    @Component
+        作用在类上
+    @ComponentScan
+        扫描带有@Component的类  默认扫描全部
+    @scope
+        作用域 常用：singleton（默认）  prototype 不常用：request session
+    @lazy
+        是否是使用时才加载，默认false 既不启用来加载
+    @Conditional
+        是否注入bean的条件
+
+往springIOC注入组件的方式
+    1.@bean
+    2.ComponentScan + @Controller @Service 。。。
+    3.@import 自动装配原理，导入第三方组件（例如使用支付宝，微信里面的功能，可以自动装配）
+        实现ImportSelector
+        实现ImportBeanDefinitionRegistrar
+    4.通过实现实现FactoryBean实现组件注册
+        应该场景：装配第三方组件，有负载的初始化，指定属性等
+
+bean的初始化和销毁
+    1.注解 initMethod destroy
+        @Bean(initMethod = "init",destroyMethod = "destroy")
+    2.实现InitializingBean, DisposableBean接口
+        InitializingBean afterPropertiesSet方法也是修改bean的属性
+    3.通过JSR250规范 提供的注解@PostConstruct 和@ProDestory标注的方法
+    4.通过Spring的BeanPostProcessor的 bean的后置处理器会拦截所有bean创建过程
+        前置处理器，修改bean的属性
+
+自动装配
+    @autowired  根据name装配
+    @Qualifier
+    @Resource
+    @primary
