@@ -76,7 +76,6 @@
 
     <modules>
         <module>fuse</module>
-        <module>demo</module>
         <module>design</module>
         <module>jdk</module>
         <module>rabbitmq</module>

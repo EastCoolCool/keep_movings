@@ -33,9 +33,10 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.lds</groupId>
-        <artifactId>keep_moving</artifactId>
-        <version>KEEP_V1.0.10.31</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.15.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
