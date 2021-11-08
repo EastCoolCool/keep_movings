@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="035076e0-3ed0-4abe-bf05-432c481a22de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/lds/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/lds/demo/DemoApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
@@ -125,7 +123,7 @@
           <entry key="txt" value="12" />
           <entry key="xml" value="156" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="83" />
+          <entry key="yml" value="84" />
           <entry key="第一节课 spring核心注解" value="3" />
         </counts>
       </usages-collector>
@@ -142,7 +140,7 @@
           <entry key="Properties" value="8" />
           <entry key="UML" value="32" />
           <entry key="XML" value="186" />
-          <entry key="YAML" value="83" />
+          <entry key="YAML" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -154,9 +152,9 @@
           <entry key="java" value="29349" />
           <entry key="properties" value="37" />
           <entry key="sh" value="82" />
-          <entry key="txt" value="989" />
+          <entry key="txt" value="1006" />
           <entry key="xml" value="741" />
-          <entry key="yml" value="1150" />
+          <entry key="yml" value="1152" />
           <entry key="第一节课 spring核心注解" value="614" />
         </counts>
       </usages-collector>
@@ -165,11 +163,11 @@
           <entry key="Bash" value="82" />
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="29349" />
-          <entry key="PLAIN_TEXT" value="1812" />
+          <entry key="PLAIN_TEXT" value="1829" />
           <entry key="Properties" value="37" />
           <entry key="VTL" value="9" />
           <entry key="XML" value="741" />
-          <entry key="YAML" value="1150" />
+          <entry key="YAML" value="1152" />
         </counts>
       </usages-collector>
     </session>
@@ -212,6 +210,15 @@
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -314,7 +321,6 @@
         <option value="$PROJECT_DIR$/leetcode/src/main/java/com/example/leetcode/easysort/Test.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/lds/demo/resttemplate/LinkHttpUtils.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/lds/demo/resttemplate/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/lds/demo/bean/Base64Util.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/lds/demo/bean/Base64Object.java" />
         <option value="$PROJECT_DIR$/jdk/src/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" />
@@ -333,6 +339,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo/src/test/java/com/lds/demo/DemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -434,41 +441,6 @@
               <item name="keep_moving" type="b2602c69:ProjectViewProjectNode" />
               <item name="keep_moving" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="keep_moving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep_moving" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep_moving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep_moving" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep_moving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep_moving" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep_moving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep_moving" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep_moving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep_moving" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -487,7 +459,7 @@
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636292100138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636332121458" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -891,7 +863,7 @@
       <workItem from="1635837927631" duration="2726000" />
       <workItem from="1635901267924" duration="162000" />
       <workItem from="1635996994365" duration="1249000" />
-      <workItem from="1636007238929" duration="2491000" />
+      <workItem from="1636007238929" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="nice">
       <created>1635838576534</created>
@@ -935,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636289500798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="解决demo项目依赖问题">
+      <created>1636292112383</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636292112383</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -971,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="552872000" />
+    <option name="totallyTimeSpent" value="553364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -984,7 +963,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.26528117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1015,7 +993,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3294621" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3294621" />
       <window_info anchor="right" id="Database" order="6" weight="0.3294621" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1108,7 +1086,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nice" />
     <MESSAGE value="修改demo父类依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改demo父类依赖" />
+    <MESSAGE value="解决demo项目依赖问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决demo项目依赖问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1376,13 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/lds/demo/Test/Test2.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/lds/demo/Test/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1470,6 +1442,13 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
