@@ -1,6 +1,6 @@
 FROM java:8
 
-ADD target/demo.jar demo.jar
+ADD demo.jar /demo.jar
 
 EXPOSE 8080
 

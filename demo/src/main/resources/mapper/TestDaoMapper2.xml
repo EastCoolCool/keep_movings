@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lds.demo.mysql.dao.TestDaoMapper2">
+
+    <select id="findSome" resultType="com.lds.demo.mysql.dao.entity.IVasEntity">
+        SELECT
+	    *
+        FROM
+        t2021_11_ivas_33029
+        where record_time between '2021-11-22 09:00:00' and '2021-11-22 10:00:00';
+    </select>
+</mapper>
